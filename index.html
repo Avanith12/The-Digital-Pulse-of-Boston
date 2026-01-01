@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Heartbeat of the City | Boston City Hall Energy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="hero">
+        <img src="hero.png" alt="Boston City Hall at Night" class="hero-img">
+        <div class="hero-overlay">
+            <h1>The Digital Pulse of Boston</h1>
+            <p class="subtitle">A story of electricity, architecture, and the invisible footprints of a city.</p>
+        </div>
+    </div>
+
+    <div class="intro-bridge">
+        <div class="container">
+            <p class="summary-text">
+                This interactive energy dashboard transforms over 100,000 data points from Boston's open datasets into a
+                cinematic narrative.
+                By decoding 15-minute electricity intervals, it reveals the seasonal, weekly, and hourly "digital pulse"
+                of one of the city's
+                most iconic public structures.
+            </p>
+        </div>
+    </div>
+
+    <main>
+        <section id="story-intro">
+            <h2>A City's Silent Rhythm</h2>
+            <p>
+                Behind the heavy concrete walls of Boston City Hall, a silent conversation is happening. Every 15
+                minutes,
+                the building speaks in numbers kilowatts of demand that trace the arrival of workers, the humming of air
+                conditioners, and the deep breaths of a structure that never truly sleeps.
+            </p>
+            <p>
+                As Boston moves toward a greener future, these numbers are more than just utility costs. They are a map
+                of our habits, showing us where we are efficient and where we leave the lights on for no one.
+            </p>
+        </section>
+
+        <div class="metrics-bar">
+            <div class="metric-card">
+                <span class="metric-value" id="peakDemand">-</span>
+                <span class="metric-label">Peak Power (kW)</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value" id="avgDemand">-</span>
+                <span class="metric-label">Average Load (kW)</span>
+            </div>
+        </div>
+
+        <section id="analysis">
+            <h2>Patterns in the Dark</h2>
+            <p>
+                By decoding over 100,000 data points from the City's open records, we can see the building's
+                "heartbeat."
+                The patterns are not just random spikes; they tell the story of the seasons and the workweek.
+            </p>
+
+            <div class="dashboard-grid">
+                <div class="chart-card">
+                    <h3>The Seasonal Shift</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="monthlyChart"></canvas>
+                    </div>
+                    <p class="caption">
+                        <strong>Seasonality:</strong> This chart visualizes how energy demand fluctuates throughout the
+                        year.
+                        The significant peaks in <strong>July and August</strong> represent the building's massive
+                        cooling requirements during Boston's humid summers.
+                        A smaller secondary rise in the winter months reflects the energy needed to keep systems running
+                        against the cold.
+                    </p>
+                </div>
+
+                <div class="chart-card">
+                    <h3>The Working Life</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="weeklyChart"></canvas>
+                    </div>
+                    <p class="caption">
+                        <strong>The Workweek:</strong> By averaging demand across the days of the week, we see the
+                        building's operational pulse.
+                        The high plateau from <strong>Monday to Friday</strong> matches standard city hall hours, while
+                        the noticeable dip on
+                        <strong>Saturday and Sunday</strong> shows the building entering a lower-power state when staff
+                        are away.
+                    </p>
+                </div>
+
+                <div class="chart-card full-width">
+                    <h3>24 Hours in the Concrete Giant</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="hourlyChart"></canvas>
+                    </div>
+                    <p class="caption">
+                        <strong>The Daily Heartbeat:</strong> This 24-hour profile is an average of all days.
+                        You can see the building "waking up" sharply at <strong>6:00 AM</strong> as lights and systems
+                        activate.
+                        Power peaks around <strong>2:00 PM</strong>. Crucially, notice that the "Baseline" at 3:00 AM
+                        never hits zero;
+                        this is the constant energy cost of keeping a modern city hall "alive."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <h2>Toward a Transparent Future</h2>
+            <p>
+                Data is the first step toward change. By making the invisible energy of our public buildings visible,
+                we empower every citizen to ask: "Can we do better?" Boston City Hall is a monument of the past,
+                but its energy data is a blueprint for our future.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: #fff; font-weight: 500; font-size: 1.2em; letter-spacing: 0.05em;">Made by Avanith
+            Kanamarlapudi!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
