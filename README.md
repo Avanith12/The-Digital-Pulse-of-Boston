@@ -28,4 +28,6 @@ Because the project loads a data file from the folder, you need to view it throu
 3. Open your browser and go to: `http://localhost:8000`
 
 ---
+This was a fun project that I wanted to do to explore data storytelling. I also took use of AI help for my understanding and to refine the implementation.
+
 **Made by Avanith Kanamarlapudi!**
