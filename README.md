@@ -2,6 +2,8 @@
 
 This project is an interactive energy dashboard that visualizes the electricity usage of Boston City Hall. It transforms over 100,000 raw data points from the city's open database into a clean, cinematic story about how our public buildings breathe.
 
+**Check out the website here: [https://avanith12.github.io/The-Digital-Pulse-of-Boston/](https://avanith12.github.io/The-Digital-Pulse-of-Boston/)**
+
 ## What is this?
 Behind the massive concrete walls of City Hall, electricity flows in patterns that tell a story. This dashboard decodes those patterns into three main views:
 1. **Seasonal Shifts**: How the building battles the New England summer heat.
