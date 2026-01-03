@@ -11,12 +11,10 @@ Behind the massive concrete walls of City Hall, electricity flows in patterns th
 - **Weekly Rhythms**: The clear difference between the busy workweek and quiet weekends.
 - **Daily Heartbeat**: A 24-hour profile of the building "waking up" and settling down.
 
-## Technical Details
-This is a lightweight web application built with:
-* **HTML5 & CSS Grid**: For a modern, responsive, and "dark mode" aesthetic.
-* **Vanilla JavaScript**: To parse and process the 100,000+ line CSV dataset.
-* **Chart.js**: For interactive visualizations.
-* **Python (Pandas & Matplotlib)**: For initial data analysis and pattern extraction.
+## Technologies Used
+* HTML5 & CSS Grid
+* Vanilla JavaScript
+* Chart.js
 
 ## Credits
 - **Data**: [City Hall Electricity Usage](https://data.boston.gov/dataset/city-hall-electricity-usage) from Analyze Boston.
