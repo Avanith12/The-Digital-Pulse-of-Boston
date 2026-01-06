@@ -1,5 +1,7 @@
 # The Digital Pulse of Boston
 
+![The Digital Pulse of Boston](readme.png)
+
 Interactive energy dashboard visualizing electricity usage at Boston City Hall.
 
 **Live Site:** [https://avanith12.github.io/The-Digital-Pulse-of-Boston/](https://avanith12.github.io/The-Digital-Pulse-of-Boston/)
