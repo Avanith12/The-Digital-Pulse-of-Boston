@@ -18,6 +18,14 @@ Behind the massive concrete walls of City Hall, electricity flows in patterns th
 - Real-time peak and average power demand metrics
 - Processes 100,000+ electricity readings collected every 15 minutes
 
+## Key Insights
+The data reveals fascinating patterns about Boston City Hall's energy consumption:
+
+- **Summer Peak**: Highest demand in July and August due to cooling requirements during Boston's humid summers
+- **Workweek Pattern**: Clear distinction between weekday operations (Monday-Friday) and weekend low-power states
+- **Daily Cycle**: Building "wakes up" at 6:00 AM, peaks around 2:00 PM, but never fully shuts down
+- **Baseline Consumption**: Even at 3:00 AM, the building maintains constant energy consumption, showing the cost of keeping modern infrastructure operational
+
 ## Technologies Used
 * HTML5 & CSS Grid
 * Vanilla JavaScript
