@@ -62,6 +62,13 @@ The-Digital-Pulse-of-Boston/
 1. Use the **Live Server** extension in VS Code.
 2. (Or) Run `python3 -m http.server` and open `http://localhost:8000`.
 
+## Usage
+Once the dashboard is loaded:
+- **View Metrics**: Check the peak and average power demand displayed at the top
+- **Explore Charts**: Hover over the monthly, weekly, and hourly charts to see detailed values
+- **Read Insights**: Scroll through the narrative sections to understand the energy patterns
+- **Responsive Design**: The dashboard adapts to different screen sizes for optimal viewing
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
