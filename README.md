@@ -16,8 +16,7 @@ Behind the massive concrete walls of City Hall, electricity flows in patterns th
 ## Features
 - Interactive charts with monthly, weekly, and hourly energy patterns
 - Real-time peak and average power demand metrics
-- Dark theme UI with responsive design
-- Analyzes 100,000+ data points from 15-minute intervals
+- Processes 100,000+ electricity readings collected every 15 minutes
 
 ## Technologies Used
 * HTML5 & CSS Grid
