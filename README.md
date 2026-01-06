@@ -33,6 +33,7 @@ The-Digital-Pulse-of-Boston/
 ├── hero.png
 ├── readme.png
 ├── analysis.py
+├── LICENSE
 └── README.md
 ```
 
@@ -43,6 +44,9 @@ The-Digital-Pulse-of-Boston/
 ## Setup
 1. Use the **Live Server** extension in VS Code.
 2. (Or) Run `python3 -m http.server` and open `http://localhost:8000`.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 This was a fun project to explore data storytelling. I used AI to help with my understanding and to refine the implementation.
