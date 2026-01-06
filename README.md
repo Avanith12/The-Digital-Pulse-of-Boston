@@ -13,6 +13,12 @@ Behind the massive concrete walls of City Hall, electricity flows in patterns th
 - **Weekly Rhythms**: The clear difference between the busy workweek and quiet weekends.
 - **Daily Heartbeat**: A 24-hour profile of the building "waking up" and settling down.
 
+## Features
+- Interactive charts with monthly, weekly, and hourly energy patterns
+- Real-time peak and average power demand metrics
+- Dark theme UI with responsive design
+- Analyzes 100,000+ data points from 15-minute intervals
+
 ## Technologies Used
 * HTML5 & CSS Grid
 * Vanilla JavaScript
