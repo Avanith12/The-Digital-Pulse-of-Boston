@@ -18,6 +18,19 @@ Behind the massive concrete walls of City Hall, electricity flows in patterns th
 * Vanilla JavaScript
 * Chart.js
 
+## Project Structure
+```
+The-Digital-Pulse-of-Boston/
+├── index.html
+├── style.css
+├── script.js
+├── data.csv
+├── hero.png
+├── readme.png
+├── analysis.py
+└── README.md
+```
+
 ## Credits
 - **Data**: [City Hall Electricity Usage](https://data.boston.gov/dataset/city-hall-electricity-usage) from Analyze Boston.
 - **Image**: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Boston_City_Hall_-_Boston,_MA_-_DSC04704_(cropped).JPG).
