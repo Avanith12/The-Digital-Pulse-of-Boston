@@ -26,6 +26,15 @@ The data reveals fascinating patterns about Boston City Hall's energy consumptio
 - **Daily Cycle**: Building "wakes up" at 6:00 AM, peaks around 2:00 PM, but never fully shuts down
 - **Baseline Consumption**: Even at 3:00 AM, the building maintains constant energy consumption, showing the cost of keeping modern infrastructure operational
 
+## Data
+- **Format**: CSV (Comma-separated values)
+- **Time Period**: October 27, 2016 to March 26, 2020
+- **Interval**: 15-minute electricity demand readings
+- **Columns**:
+  - `DateTime_Measured` - Timestamp of the measurement (YYYY-MM-DD HH:MM:SS)
+  - `Total_Demand_KW` - Total electricity demand in kilowatts
+- **Source**: [City Hall Electricity Usage](https://data.boston.gov/dataset/city-hall-electricity-usage) from Analyze Boston
+
 ## Technologies Used
 * HTML5 & CSS Grid
 * Vanilla JavaScript
