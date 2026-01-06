@@ -69,6 +69,19 @@ Once the dashboard is loaded:
 - **Read Insights**: Scroll through the narrative sections to understand the energy patterns
 - **Responsive Design**: The dashboard adapts to different screen sizes for optimal viewing
 
+## Troubleshooting
+
+### Why a local server is needed
+The dashboard requires a local web server due to **CORS (Cross-Origin Resource Sharing)** restrictions. Browsers block local file access to prevent security issues, so opening `index.html` directly won't load the CSV data. Using a local server (Live Server, Python's http.server, etc.) allows the browser to fetch the `data.csv` file properly.
+
+### Charts not loading
+If the charts don't appear:
+1. **Check browser console** (F12) for any error messages
+2. **Verify data.csv exists** in the project directory
+3. **Ensure you're using a local server** - don't open the HTML file directly
+4. **Check internet connection** - Chart.js is loaded from a CDN
+5. **Try refreshing** the page after the server starts
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
