@@ -89,5 +89,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This was a fun project to explore data storytelling. I used AI to help with my understanding and to refine the implementation.
 
 **Made by Avanith Kanamarlapudi!**
-made some final edirs
+
 
